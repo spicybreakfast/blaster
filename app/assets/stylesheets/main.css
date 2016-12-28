@@ -1,0 +1,70 @@
+html, body {
+  font-family: arial;
+  background-color: #ebebec;
+}
+
+/*nav {*/
+/*background: green;*/
+/*ul {*/
+/*background: pink;*/
+/*list-style-type: none;*/
+/*margin: 0;*/
+/*padding: 0;*/
+/*list-style: none;*/
+/*li {*/
+/*display: inline;*/
+/*}*/
+/*}*/
+/*}*/
+
+.top-bar {
+  background-color: #4CAF50;
+}
+
+/*nav {*/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*background-color: #333;*/
+  /*background-color: #4CAF50;*/
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a,nav ul li a:visited  {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav ul li a:hover {
+  background-color: #3c8c40;
+}
+/*}*/
+
+a, a:visited { color: #4CAF50; }
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  /*padding: .5em 2em;*/
+  box-sizing: border-box;
+}
+
+.content {
+  background-color: #fcfcfd;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: .5em 2em;
+  box-sizing: border-box;
+}
